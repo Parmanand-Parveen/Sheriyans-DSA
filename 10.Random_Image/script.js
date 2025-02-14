@@ -11,6 +11,7 @@ function random2() {
 }
 
 
+
 btn.addEventListener("click", () => {
     let random = Math.floor(Math.random() * images.length);
     let img = document.createElement("img");
